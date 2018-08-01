@@ -1,0 +1,1 @@
+Simple JAX-WS service app 

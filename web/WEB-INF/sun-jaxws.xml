@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+        xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+        version="2.0">
+    <endpoint
+            name="ProductCatalog"
+            implementation="org.art.web.ws.webservices.ProductCatalog"
+            url-pattern="/services/catalog"/>
+
+    <endpoint
+            name="ShopInfo"
+            implementation="org.art.web.ws.webservices.ShopInfo"
+            url-pattern="/services/info"/>
+</endpoints>
